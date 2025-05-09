@@ -34,7 +34,7 @@ const MovieDetails = () => {
         sx={{ width: '100%', maxWidth: 400, borderRadius: 2, mb: 2 }}
       />
       <Typography variant="body1" paragraph>{movie.overview}</Typography>
-      <Typography variant="subtitle1"><strong>Rating:</strong> {movie.vote_average}</Typography>
+      <Typography variant="subtitle1"><strong>Rating:</strong> {movie.vote_average.toFixed(1)}</Typography>
       <Typography variant="subtitle1"><strong>Release Date:</strong> {movie.release_date}</Typography>
       <Box mt={2}>
         {movie.genres.map((genre) => (
