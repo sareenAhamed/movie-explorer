@@ -2,6 +2,7 @@ Sareenflix - Movie Explorer App
 
 A modern movie web app built using React, Material UI, and the TMDb API. Users can search for movies, view details, toggle dark/light mode, and save favorites.
 
+
 Features
 1. Search movies using TMDb API
 2. View movie details with ratings, overview, and release info
