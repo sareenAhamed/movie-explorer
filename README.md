@@ -35,11 +35,11 @@ Installation & Setup
 
 3. Get TMDb API Key
    
-	Sign up at TMDb
+	I. Sign up at TMDb
 
-	Go to your API settings
+	II. Go to your API settings
 
-	Copy your API Key (v3)
+	III. Copy your API Key (v3)
 
 4. Start the App
    
