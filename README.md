@@ -24,6 +24,7 @@ Tech Stack
 Installation & Setup
 
 1. Clone the Repo
+   
 	I. git clone https://github.com/sareenAhamed/movie-explorer
 	II. cd movie-app
 
