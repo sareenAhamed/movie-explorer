@@ -24,18 +24,18 @@ Tech Stack
 Installation & Setup
 
 1. Clone the Repo
-	git clone https://github.com/sareenAhamed/movie-explorer
-	cd movie-app
+	I. git clone https://github.com/sareenAhamed/movie-explorer
+	II. cd movie-app
 
-2. Install Dependencies
+3. Install Dependencies
 	npm install
 
-3. Get TMDb API Key
+4. Get TMDb API Key
 	Sign up at TMDb
 	Go to your API settings
 	Copy your API Key (v3)
 
-4. Start the App
+5. Start the App
 	npm start
 
 Demo: 
