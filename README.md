@@ -45,7 +45,7 @@ Installation & Setup
    
 	npm start
 
-Demo: 
+Demo: https://sareenflix.netlify.app/
 
 
 Author: Sareen Ahamed
