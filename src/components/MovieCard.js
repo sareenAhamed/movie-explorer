@@ -15,8 +15,10 @@ const MovieCard = ({ movie }) => {
   const { toggleFavorite, isFavorite } = useFavorites();
 
   return (
+    // Card links to movie details page
     <Link to={`/movie/${movie.id}`} style={{ textDecoration: 'none' }}>
       <Card sx={{ height: '100%', cursor: 'pointer', position: 'relative' }}>
+        {/* Movie poster */}
         <CardMedia
           component="img"
           height="350"
@@ -24,6 +26,7 @@ const MovieCard = ({ movie }) => {
           alt={movie.title}
         />
 
+        {/* Favorite toggle button */}
         <IconButton
           onClick={(e) => {
             e.preventDefault(); 
@@ -46,6 +49,7 @@ const MovieCard = ({ movie }) => {
           )}
         </IconButton>
 
+        {/* Movie details */}
         <CardContent>
           <Typography variant="h6" color="text.primary">
             {movie.title}

@@ -8,12 +8,16 @@ const Favorites = () => {
 
   return (
     <Container>
+      {/* Page title */}
       <Typography variant="h4" gutterBottom>
         My Favorite Movies
       </Typography>
+
+      {/* Show message if no favorites */}
       {favorites.length === 0 ? (
         <Typography>No favorites yet!</Typography>
       ) : (
+        // Render favorite movies in a grid
         <Grid container spacing={3}>
           {favorites.map((movie) => (
             <Grid item xs={12} sm={6} md={3} key={movie.id}>

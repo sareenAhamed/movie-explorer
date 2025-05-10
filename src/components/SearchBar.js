@@ -14,6 +14,7 @@ const SearchBar = ({ onSearch }) => {
   };
 
   return (
+    // Search input with submit button
     <form onSubmit={handleSubmit}>
       <TextField
         label="Search Movies"
