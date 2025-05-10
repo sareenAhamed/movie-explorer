@@ -46,3 +46,6 @@ Installation & Setup
 	npm start
 
 Demo: 
+
+
+Author: Sareen Ahamed
