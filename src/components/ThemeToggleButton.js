@@ -1,11 +1,10 @@
 import React from 'react';
-import { IconButton, useTheme } from '@mui/material';
+import { IconButton } from '@mui/material';
 import { LightMode, DarkMode } from '@mui/icons-material';
 import { useThemeToggle } from '../context/ThemeContext';
 
 const ThemeToggleButton = () => {
   const { toggleTheme, mode } = useThemeToggle();
-  const theme = useTheme();
 
   return (
     // Toggle between light and dark mode
