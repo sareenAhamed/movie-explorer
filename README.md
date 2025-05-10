@@ -26,17 +26,23 @@ Installation & Setup
 1. Clone the Repo
    
 	I. git clone https://github.com/sareenAhamed/movie-explorer
+
 	II. cd movie-app
 
-3. Install Dependencies
+2. Install Dependencies
+   
 	npm install
 
-4. Get TMDb API Key
+3. Get TMDb API Key
+   
 	Sign up at TMDb
+
 	Go to your API settings
+
 	Copy your API Key (v3)
 
-5. Start the App
+4. Start the App
+   
 	npm start
 
 Demo: 
